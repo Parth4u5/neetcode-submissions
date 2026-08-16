@@ -1,3 +1,4 @@
+//here we hava used approach as mainly two pointers by maintaing left and right pointer to calculate profit
 class Solution {
     public int maxProfit(int[] prices) {
         int max = 0 , left = 0 , right = 1 , profit = 0;
